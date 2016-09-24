@@ -1,0 +1,16 @@
+version: '2'
+services:
+
+  app1:
+    volumes:
+      - ./app1:/app
+      - /app/node_modules
+
+  app2:
+    volumes:
+      - ./app2:/app
+      - /app/node_modules
+
+  nginx:
+    volumes:
+      - ./volumes/nginx/nginx.conf:/etc/nginx/nginx.conf:ro

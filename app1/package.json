@@ -1,0 +1,13 @@
+{
+  "name": "app1",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "static-server -p 8080"
+  },
+  "author": "Bogumil Wrona <b.wrona@cre8newmedia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "static-server": "^2.0.3"
+  }
+}
