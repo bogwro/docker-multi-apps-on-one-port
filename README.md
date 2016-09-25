@@ -1,6 +1,6 @@
 # Docker Multi Apps on One Port
 
-Demo showing set-up of Dockerized Web Application that has 2 components:
+Demo showing set-up of Dockerized Web Application that has 3 components:
 
 - static content: [/](http://localhost:8100/)
 - app1: [/app1](http://localhost:8100/app1)
