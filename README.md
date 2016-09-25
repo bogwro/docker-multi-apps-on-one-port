@@ -2,8 +2,9 @@
 
 Demo showing set-up of Dockerized Web Application that has 2 components:
 
-- app1
-- app2
+- static content: [/](http://localhost:8100/)
+- app1: [/app1](http://localhost:8100/app1)
+- app2: [/app2](http://localhost:8100/app2)
 
 ## Set-Up
 
@@ -19,8 +20,9 @@ Demo showing set-up of Dockerized Web Application that has 2 components:
 
 Open browser and navigate to: 
 
-- `http://localhost:8100/app1` to access App1
-- `http://localhost:8100/app2` to access App2
+- `http://localhost:8100/` to access Static Content
+- `http://localhost:8100/app1` to access App1 Dynamic Content
+- `http://localhost:8100/app2` to access App2 Dynamic Content
 
 ## License
 
